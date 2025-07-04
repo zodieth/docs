@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "name": "Redchat Developer Docs",
-  "description": "Official developer documentation for Redchat - customer support platform. Learn about our APIs, integrations, and development guidelines.",
+  "name": "Chatwoot Developer Docs",
+  "description": "Official developer documentation for Chatwoot - the open-source customer support platform. Learn about our APIs, integrations, and development guidelines.",
   "logo": {
     "dark": "/logo/dark.png",
     "light": "/logo/light.png"
@@ -32,7 +32,9 @@
       {
         "anchor": "Introduction",
         "icon": "house",
-        "pages": ["introduction"]
+        "pages": [
+          "introduction"
+        ]
       },
       {
         "anchor": "Installation & Setup",
@@ -40,7 +42,9 @@
         "pages": [
           {
             "group": "Getting Started",
-            "pages": ["self-hosted"]
+            "pages": [
+              "self-hosted"
+            ]
           },
           {
             "group": "Deployment Methods",
@@ -50,7 +54,7 @@
               "self-hosted/deployment/linux-vm",
               "self-hosted/deployment/docker",
               "self-hosted/deployment/helm-chart",
-              "self-hosted/deployment/Redchat-ctl"
+              "self-hosted/deployment/chatwoot-ctl"
             ]
           },
           {
@@ -119,7 +123,9 @@
               },
               {
                 "group": "Help Center",
-                "pages": ["self-hosted/configuration/help-center"]
+                "pages": [
+                  "self-hosted/configuration/help-center"
+                ]
               }
             ]
           },
@@ -144,8 +150,8 @@
           {
             "group": "Runbooks",
             "pages": [
-              "self-hosted/runbooks/migrate-Redchat-database",
-              "self-hosted/runbooks/upgrade-to-Redchat-v4",
+              "self-hosted/runbooks/migrate-chatwoot-database",
+              "self-hosted/runbooks/upgrade-to-chatwoot-v4",
               "self-hosted/runbooks/email-notifications",
               "self-hosted/runbooks/enable-ip-logging"
             ]
@@ -169,7 +175,9 @@
         "pages": [
           {
             "group": "Getting Started",
-            "pages": ["contributing-guide"]
+            "pages": [
+              "contributing-guide"
+            ]
           },
           {
             "group": "Environment Setup",
@@ -194,14 +202,16 @@
           },
           {
             "group": "Testing",
-            "pages": ["contributing-guide/tests/cypress"]
+            "pages": [
+              "contributing-guide/tests/cypress"
+            ]
           },
           {
             "group": "Others",
             "pages": [
-              "contributing-guide/Redchat-apis",
+              "contributing-guide/chatwoot-apis",
               "contributing-guide/api-documentation",
-              "contributing-guide/Redchat-platform-apis",
+              "contributing-guide/chatwoot-platform-apis",
               "contributing-guide/security-reports",
               "contributing-guide/translation-guidelines",
               "contributing-guide/community-guidelines",
@@ -218,12 +228,14 @@
         "groups": [
           {
             "group": "Getting Started",
-            "description": "Learn about Redchat APIs and how to use them",
-            "pages": ["api-reference/introduction"]
+            "description": "Learn about Chatwoot APIs and how to use them",
+            "pages": [
+              "api-reference/introduction"
+            ]
           },
           {
             "group": "Application APIs",
-            "description": "APIs for managing application aspects of Redchat",
+            "description": "APIs for managing application aspects of Chatwoot",
             "includeTags": [
               "Agents",
               "Automation Rule",
@@ -245,13 +257,18 @@
               "Teams",
               "Webhooks"
             ],
-            "openapi": "https://raw.githubusercontent.com/Redchat/Redchat/develop/swagger/tag_groups/application_swagger.json"
+            "openapi": "https://raw.githubusercontent.com/chatwoot/chatwoot/develop/swagger/tag_groups/application_swagger.json"
           },
           {
             "group": "Platform APIs",
-            "description": "APIs for managing platform aspects of Redchat",
-            "includeTags": ["Accounts", "Account Users", "AgentBots", "Users"],
-            "openapi": "https://raw.githubusercontent.com/Redchat/Redchat/develop/swagger/tag_groups/platform_swagger.json"
+            "description": "APIs for managing platform aspects of Chatwoot",
+            "includeTags": [
+              "Accounts",
+              "Account Users",
+              "AgentBots",
+              "Users"
+            ],
+            "openapi": "https://raw.githubusercontent.com/chatwoot/chatwoot/develop/swagger/tag_groups/platform_swagger.json"
           },
           {
             "group": "Client APIs",
@@ -261,13 +278,15 @@
               "Conversations API",
               "Messages API"
             ],
-            "openapi": "https://raw.githubusercontent.com/Redchat/Redchat/develop/swagger/tag_groups/client_swagger.json"
+            "openapi": "https://raw.githubusercontent.com/chatwoot/chatwoot/develop/swagger/tag_groups/client_swagger.json"
           },
           {
             "group": "Other APIs",
-            "description": "Additional Redchat APIs",
-            "includeTags": ["CSAT Survey Page"],
-            "openapi": "https://raw.githubusercontent.com/Redchat/Redchat/develop/swagger/tag_groups/other_swagger.json"
+            "description": "Additional Chatwoot APIs",
+            "includeTags": [
+              "CSAT Survey Page"
+            ],
+            "openapi": "https://raw.githubusercontent.com/chatwoot/chatwoot/develop/swagger/tag_groups/other_swagger.json"
           }
         ]
       }
@@ -275,9 +294,9 @@
   },
   "footer": {
     "socials": {
-      "twitter": "https://twitter.com/Redchatapp",
-      "github": "https://github.com/Redchat",
-      "linkedin": "https://www.linkedin.com/company/Redchat"
+      "twitter": "https://twitter.com/chatwootapp",
+      "github": "https://github.com/chatwoot",
+      "linkedin": "https://www.linkedin.com/company/chatwoot"
     }
   }
 }
